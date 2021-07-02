@@ -19,12 +19,8 @@ int main() {
 	map<int, int> mymap;
 	for (int i = 0; i < n; i++)
 	{
-		int key;
-		cin >> key;
-		getchar();
-
-		int value;
-		cin >> value;
+		int key,value;
+		cin >> key >> value;
 		mymap[key] += value;
 
 	}
